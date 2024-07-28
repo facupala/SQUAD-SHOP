@@ -1,0 +1,38 @@
+.navbar{
+    color: orange;
+    display: flex;
+    flex-direction: column;
+    
+}
+.Menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    
+}
+.Lista{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
+.Brand{
+    background-image: url(../../assets/fondobarra.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.logo{
+ position: relative;
+ padding: 1rem;
+ width: 250px;
+ left: 40%;
+ cursor: pointer;
+}
+li{
+    padding: 0.5rem;
+}
+a{
+    text-decoration: none;
+    color: orange;
+}

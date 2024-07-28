@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Lilita+One&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Lilita One", sans-serif;
+}
