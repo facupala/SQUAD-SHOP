@@ -8,6 +8,8 @@
     display: flex;
     justify-content: space-between;
     background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
     
 }
 .Lista{
@@ -16,6 +18,7 @@
     align-items: center;
     font-size: 1.2rem;
     margin-left: 20px;
+    overflow: hidden;
 }
 .Brand{
     background-image: url(../../assets/fondobarra.jpg);
@@ -29,10 +32,115 @@
  left: 40%;
  cursor: pointer;
 }
-li{
+.links{
     padding: 0.6rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: white;
+    border-radius: 30px;
+    width: 6.5rem;
+    height: 2.5rem;
+    text-align: center;
+    
+    
+}
+.links:hover{
+    transition: 1s;
+    background-color: palevioletred;
 }
 a{
     text-decoration: none;
-    color: orange;
+    color: black  
+}
+.one::before{
+    background-image: url(../../assets/iconbarbarian.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    content: "";
+    display: block;
+    text-align: center;
+    position: relative;
+    left: 20px;
+    top: -15px;
+    transition: all .5s ease-in-out;
+}
+.one:hover::before{
+ margin-top: -50px;
+}
+.one::after{
+    content:"Personajes" ;
+    display: block;
+    
+}
+.two::before{
+    background-image: url(../../assets/Bomb_Spell.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    content: "";
+    display: block;
+    text-align: center;
+    position: relative;
+    left: 30%;
+    top: -8px;
+    transition: all .5s ease-in-out;
+}
+.two:hover::before{
+    margin-top: -50px;
+   }
+.two::after{
+   content:"Hechizos" ;
+   margin-top: 13px;
+   display: block;
+       
+}
+.three::before{
+    background-image: url(../../assets/monster.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    content: "";
+    display: block;
+    text-align: center;
+    position: relative;
+    left: 20%;
+    top: -15px;
+    transition: all .5s ease-in-out;
+}
+.three:hover::before{
+ margin-top: -50px;
+}
+.three::after{
+    content:"Mobs" ;
+    display: block;
+    
+}
+.four::before{
+    background-image: url(../../assets/Gem.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    content: "";
+    display: block;
+    text-align: center;
+    position: relative;
+    left: 30%;
+    top: -9px;
+    margin-bottom: 15px;
+    transition: all .5s ease-in-out;
+}
+.four:hover::before{
+ margin-top: -50px;
+}
+.four::after{
+    content:"Gemas" ;
+    
+    display: block;
+    
+    
 }

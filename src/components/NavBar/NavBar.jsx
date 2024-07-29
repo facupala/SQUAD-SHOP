@@ -1,5 +1,6 @@
 import "./navbar.css"
 import LogoSaquadBuster from "../../assets/logo-squad-buster.png"
+import IconBarbarian from "../../assets/iconbarbarian.webp"
 import CarWidget from "./CarWidget";
 
 const NavBar = ()=>{
@@ -10,17 +11,17 @@ const NavBar = ()=>{
     </div>
     <div className="Menu">
         <ul className="Lista">
-            <li>
-                <a href="#">Personajes</a>
+            <li className="links">
+                <a className="one" href="#"> </a>
             </li>
-            <li>
-                <a href="#">Hechizos</a>
+            <li className="links">
+                <a className="two" href="#"></a>
             </li>
-            <li>
-                <a href="#">Mobs</a>
+            <li className="links">
+                <a className="three" href="#"></a>
             </li>
-            <li>
-                <a href="#">Gems</a>
+            <li className="links">
+                <a className="four" href="#"></a>
             </li>
         </ul>
         <CarWidget/>
