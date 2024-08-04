@@ -1,0 +1,18 @@
+[
+    {
+        "id":1,
+        "nombre":"Barbaro",
+        "precio":250,
+        "stock":7,
+        "img":"",
+        "descripcion":"Mele"
+    },
+    {
+        "id":2,
+        "nombre":"El Primo",
+        "precio":450,
+        "stock":3,
+        "img":"https://static.wikia.nocookie.net/squad-busters/images/b/b9/El_Primo_Classic_portrait.png/revision/latest/scale-to-width-down/1000?cb=20240427160951&path-prefix=es",
+        "descripcion":"Mele"
+    }
+]

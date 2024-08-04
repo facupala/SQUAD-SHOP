@@ -1,4 +1,23 @@
 .navbar{
+    padding: 0px;
+}
+.nav-custom{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+.barra-logo{
+    background-image: url(../../assets/fondobarra.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+.navbar{
     color: orange;
     display: flex;
     flex-direction: column;
@@ -19,6 +38,7 @@
     font-size: 1.2rem;
     margin-left: 20px;
     overflow: hidden;
+    margin-bottom: 0px;
 }
 .Brand{
     background-image: url(../../assets/fondobarra.jpg);
@@ -31,7 +51,7 @@
  width: 250px;
  left: 40%;
  cursor: pointer;
-}
+} 
 .links{
     padding: 0.6rem;
     margin-left: 5px;
@@ -62,8 +82,8 @@ a{
     display: block;
     text-align: center;
     position: relative;
-    left: 20px;
-    top: -15px;
+    left: 10px;
+    top: -20px;
     transition: all .5s ease-in-out;
 }
 .one:hover::before{
@@ -72,7 +92,10 @@ a{
 .one::after{
     content:"Personajes" ;
     display: block;
-    
+    margin-top: -10px;
+    color: black;
+    position: relative;
+    left: -10px;
 }
 .two::before{
     background-image: url(../../assets/Bomb_Spell.webp);
@@ -84,8 +107,8 @@ a{
     display: block;
     text-align: center;
     position: relative;
-    left: 30%;
-    top: -8px;
+    left: 25%;
+    top: -14px;
     transition: all .5s ease-in-out;
 }
 .two:hover::before{
@@ -93,8 +116,9 @@ a{
    }
 .two::after{
    content:"Hechizos" ;
-   margin-top: 13px;
+   margin-top: 5px;
    display: block;
+   color: black;
        
 }
 .three::before{
@@ -107,8 +131,8 @@ a{
     display: block;
     text-align: center;
     position: relative;
-    left: 20%;
-    top: -15px;
+    left: 15%;
+    top: -20px;
     transition: all .5s ease-in-out;
 }
 .three:hover::before{
@@ -117,7 +141,8 @@ a{
 .three::after{
     content:"Mobs" ;
     display: block;
-    
+    margin-top: -10PX;
+    color: black;   
 }
 .four::before{
     background-image: url(../../assets/Gem.webp);
@@ -129,8 +154,8 @@ a{
     display: block;
     text-align: center;
     position: relative;
-    left: 30%;
-    top: -9px;
+    left: 25%;
+    top: -14px;
     margin-bottom: 15px;
     transition: all .5s ease-in-out;
 }
@@ -139,8 +164,9 @@ a{
 }
 .four::after{
     content:"Gemas" ;
-    
+    margin-top: -10PX;
     display: block;
+    color:black ;
     
     
 }
