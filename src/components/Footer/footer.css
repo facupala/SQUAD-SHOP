@@ -1,0 +1,18 @@
+.footer{
+    background-color:  black;
+    text-align: center;
+}
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-bottom: 10px;
+    color: white;
+}
+.sos-link{
+    color: white;
+    
+    text-decoration: none;
+    margin: 0 10px 0 10px;
+}
+

@@ -68,7 +68,7 @@
     transition: 1s;
     background-color: palevioletred;
 }
-a{
+.nav-link{
     text-decoration: none;
     color: black  
 }

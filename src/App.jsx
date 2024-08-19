@@ -3,15 +3,31 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.min.js"
 import NavBar from "./components/NavBar/NavBar"
 import ItemListContainer from './components/ItemListContainer/ItemListContainer'
-import ItemCount from './components/ItemCount/ItemCount'
-
+import Footer from './components/Footer/Footer'
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer'
+import Error from './components/Error/Error'
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
 function App() {
   
   return (
     <div>
+      <BrowserRouter>
       <NavBar/>
-      <ItemListContainer greeting="Bienbenidos a Squad Buster shops"/>
-      <ItemCount/>
+        <Routes>
+            <Route path='/' element={<ItemListContainer/>}/>
+            <Route path='/categoria/:categoriaId' element={<ItemListContainer/>}/>
+            <Route path='/item/:id' element={<ItemDetailContainer/>}/>
+            <Route path='*' element={<Error/>}/>
+        </Routes>
+  
+      
+      <ItemDetailContainer/>
+      
+      
+      
+      <Footer/>
+      
+      </BrowserRouter>
     </div>    
   )
 }

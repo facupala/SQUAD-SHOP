@@ -1,34 +1,40 @@
 import {useState,useEffect} from 'react'
-
+import ItemList from '../ItemList/ItemList'
+import "./itemlistcontainer.css"
+import { useParams } from 'react-router-dom'
+import Spinner from '../Spinner/Spinner'
 function ItemListContainer({greeting}) {
   const[Personaje,setPersonaje]=useState([])
+  const {categoriaId} = useParams();
+  const [loading,setLoading]=useState(true)
 
   useEffect(()=>{
     const fetchData=async()=>{
       try{
-        const response = await fetch('./personajes.json')
+        const response = await fetch('/personajes.json')
         const data = await response.json()
-        setPersonaje(data)
+         const filtered = categoriaId ? data.filter(p=> p.categoria === categoriaId) : data;
+
+  
+          setPersonaje(filtered)
+         
+        
       }catch(error){
         console.log("error")
+      }finally{
+        setLoading(false)
       }
     }
     fetchData()
-  },[])
+  },[categoriaId])
+  console.log(categoriaId)
+  
   return (
-    <div>
-      <h1>{greeting}</h1>
-     {Personaje.map((Personajes)=>{
-      return(
-      <div key={Personajes.id} className='Card'>
-        <img src={Personajes.img} alt="" />
-        <h2>{Personajes.nombre}</h2>
-        <p>{Personajes.descripcion}</p>
-        <p>${Personajes.precio}</p>
+    <div className='container-fluid box-personajes'>
+      <h1>Bienvenidos</h1>
 
-      </div>
-      )
-     })}
+      {loading ? <Spinner/> : <ItemList Personajes={Personaje}/>}
+     
     </div>
   )
 }

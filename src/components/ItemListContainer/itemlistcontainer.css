@@ -1,0 +1,9 @@
+.box-personajes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image:url(https://www.noff.gg/squad-busters/res/img/bg_epic.png) ;
+    margin: 0;
+    align-items: center;
+}

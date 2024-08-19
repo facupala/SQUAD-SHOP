@@ -4,7 +4,8 @@
         "nombre":"Barbaro",
         "precio":250,
         "stock":7,
-        "img":"",
+        "categoria":"Hechizos",
+        "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/barbarian_classic.png",
         "descripcion":"Mele"
     },
     {
@@ -12,7 +13,235 @@
         "nombre":"El Primo",
         "precio":450,
         "stock":3,
-        "img":"https://static.wikia.nocookie.net/squad-busters/images/b/b9/El_Primo_Classic_portrait.png/revision/latest/scale-to-width-down/1000?cb=20240427160951&path-prefix=es",
-        "descripcion":"Mele"
+        "categoria":"Mobs",
+        "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/el_primo_classic.png",
+        "descripcion":"Defender"
+    },
+    {
+        "id":3 ,
+        "nombre":"Goblin" ,
+        "precio":650,
+        "stock":4,
+        "categoria":"Gemas",
+        "img": "https://www.noff.gg/squad-busters/res/img/characters/portraits/goblin_classic.png",
+        "descripcion":"supplier"
+    },
+    {
+        "id":4 ,
+        "nombre":"Greg" ,
+        "precio":325,
+        "stock":5,
+        "categoria":"Personajes",
+        "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/greg_classic.png" ,
+        "descripcion":"supplier" 
+    },
+    {
+        "id":5,
+        "nombre":"Heavy",
+        "precio":1000,
+        "stock":2,
+        "categoria":"Personajes",
+        "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/heavy_classic.png",
+        "descripcion":"Defender"
+    },
+    {
+        "id":6,
+        "nombre":"Hog Ryder",
+        "precio":1500,
+        "stock":2,
+        "categoria":"Personajes",
+        "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/hog_rider_classic.png",
+        "descripcion":"Speedster"
+    },
+    {
+        "id":7,
+        "nombre":"Mavis",
+        "precio":250,
+        "stock":10,
+        "categoria":"Personajes",
+        "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/mavis_classic.png",
+        "descripcion":"Supplier"
+    },
+    {
+        "id":8,
+        "nombre":"Max",
+        "precio":750,
+        "stock":7,
+        "categoria":"Personajes",
+        "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/max_classic.png",
+        "descripcion":"Speedster"
+    },
+    {
+        "id":9,
+        "nombre":"Medic",
+        "precio":1500,
+        "stock":1,
+        "categoria":"Personajes",
+        "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/medic_classic.png",
+        "descripcion":"Healer"
+    },
+    {
+        "id":10,
+        "nombre":"Mortis",
+        "precio":1000,
+        "stock":4,
+        "categoria":"Personajes",
+        "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/mortis_classic.png",
+        "descripcion":"All-rounder"
+    },
+    {
+        "id":11,
+        "nombre":"Nita",
+        "precio":1500,
+        "stock":2,
+        "categoria":"Personajes",
+        "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/nita_classic.png",
+        "descripcion":"Defender"
+    },
+    {
+        "id":12,
+        "nombre":"Pam",
+        "precio":1500,
+        "stock":2,
+        "categoria":"Personajes",
+        "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/pam_classic.png",
+        "descripcion":"Healer"
+    },
+    {
+        "id":13,
+        "nombre":"Penny",
+        "precio":1500,
+        "stock":3,
+        "categoria":"Personajes",
+        "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/penny_classic.png",
+        "descripcion":"Supplier"
+    },
+    {
+        "id":14,
+        "nombre":"Royale King",
+        "precio":1000,
+        "stock":5,
+        "categoria":"Personajes",
+        "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/royale_king_classic.png",
+        "descripcion":"Defender"
+    },
+    {
+        "id":15,
+        "nombre":"Shelly",
+        "precio":300,
+        "stock":15,
+        "categoria":"Personajes",
+        "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/shelly_classic.png",
+        "descripcion":"All-rounder"
+    },
+    {
+        "id":16,
+        "nombre":"Tank",
+        "precio":300,
+        "stock":15,
+        "categoria":"Personajes",
+        "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/tank_classic.png",
+        "descripcion":"Defender"
+    },
+    {
+        "id":17,
+        "nombre":"Trader",
+        "precio":700,
+        "stock":15,
+        "categoria":"Personajes",
+        "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/trader_classic.png",
+        "descripcion":"Supplier"
+    },
+    {
+        "id":18,
+        "nombre":"Witch",
+        "precio":1200,
+        "stock":15,
+        "categoria":"Personajes",
+        "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/witch_classic.png",
+        "descripcion":"Attacker"
+    },
+    {
+        "id":19,
+        "nombre":"Wizzard",
+        "precio":1600,
+        "stock":4,
+        "categoria":"Personajes",
+        "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/wizard_classic.png",
+        "descripcion":"Attacker"
+    },
+    {
+        "id":20,
+        "nombre":"Archer Queen",
+        "precio":900,
+        "stock":5,
+        "categoria":"Personajes",
+        "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/archer_queen_classic.png",
+        "descripcion":"Attacker"
+    },
+    {
+        "id":21,
+        "nombre":"Bandit",
+        "precio":900,
+        "stock":3,
+        "categoria":"Personajes",
+        "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/bandit_classic.png",
+        "descripcion":"Supplier"
+    },
+    {
+        "id":22,
+        "nombre":"Barbarian King",
+        "precio":1300,
+        "stock":1,
+        "categoria":"Personajes",
+        "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/barbarian_king_classic.png",
+        "descripcion":"Defender"
+    },
+    {
+       "id":23,
+        "nombre":"Battle Healer",
+        "precio":1300,
+        "stock":7,
+        "categoria":"Personajes",
+        "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/battle_healer_classic.png",
+        "descripcion":"Healer" 
+    },
+    {
+        "id":24,
+        "nombre":"Bo",
+        "precio":250,
+        "stock":17,
+        "categoria":"Personajes",
+        "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/bo_classic.png",
+        "descripcion":"Attacker" 
+    },
+    {
+        "id":25,
+        "nombre":"Chicken",
+        "precio":250,
+        "stock":17,
+        "categoria":"Personajes",
+        "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/chicken_classic.png",
+        "descripcion":"Speedster" 
+    },
+    {
+        "id":26,
+        "nombre":"Colt",
+        "precio":350,
+        "stock":17,
+        "categoria":"Personajes",
+        "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/colt_classic.png",
+        "descripcion":"Attacker" 
+    },
+    {
+        "id":27,
+        "nombre":"Dynamike",
+        "precio":1350,
+        "stock":5,
+        "categoria":"Personajes",
+        "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/dynamike_classic.png",
+        "descripcion":"Attacker" 
     }
+
+
 ]
