@@ -4,6 +4,7 @@
         "nombre":"Barbaro",
         "precio":250,
         "stock":7,
+        "rareza":"common",
         "categoria":"Hechizos",
         "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/barbarian_classic.png",
         "descripcion":"Mele"
@@ -13,6 +14,7 @@
         "nombre":"El Primo",
         "precio":450,
         "stock":3,
+        "rareza":"common",
         "categoria":"Mobs",
         "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/el_primo_classic.png",
         "descripcion":"Defender"
@@ -22,6 +24,7 @@
         "nombre":"Goblin" ,
         "precio":650,
         "stock":4,
+        "rareza":"common",
         "categoria":"Gemas",
         "img": "https://www.noff.gg/squad-busters/res/img/characters/portraits/goblin_classic.png",
         "descripcion":"supplier"
@@ -31,6 +34,7 @@
         "nombre":"Greg" ,
         "precio":325,
         "stock":5,
+        "rareza":"common",
         "categoria":"Personajes",
         "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/greg_classic.png" ,
         "descripcion":"supplier" 
@@ -40,6 +44,7 @@
         "nombre":"Heavy",
         "precio":1000,
         "stock":2,
+        "rareza":"epic",
         "categoria":"Personajes",
         "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/heavy_classic.png",
         "descripcion":"Defender"
@@ -49,6 +54,7 @@
         "nombre":"Hog Ryder",
         "precio":1500,
         "stock":2,
+        "rareza":"legendary",
         "categoria":"Personajes",
         "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/hog_rider_classic.png",
         "descripcion":"Speedster"
@@ -58,6 +64,7 @@
         "nombre":"Mavis",
         "precio":250,
         "stock":10,
+        "rareza":"common",
         "categoria":"Personajes",
         "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/mavis_classic.png",
         "descripcion":"Supplier"
@@ -67,6 +74,7 @@
         "nombre":"Max",
         "precio":750,
         "stock":7,
+        "rareza":"epic",
         "categoria":"Personajes",
         "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/max_classic.png",
         "descripcion":"Speedster"
@@ -76,6 +84,7 @@
         "nombre":"Medic",
         "precio":1500,
         "stock":1,
+        "rareza":"legendary",
         "categoria":"Personajes",
         "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/medic_classic.png",
         "descripcion":"Healer"
@@ -85,6 +94,7 @@
         "nombre":"Mortis",
         "precio":1000,
         "stock":4,
+        "rareza":"epic",
         "categoria":"Personajes",
         "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/mortis_classic.png",
         "descripcion":"All-rounder"
@@ -94,6 +104,7 @@
         "nombre":"Nita",
         "precio":1500,
         "stock":2,
+        "rareza":"legendary",
         "categoria":"Personajes",
         "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/nita_classic.png",
         "descripcion":"Defender"
@@ -103,6 +114,7 @@
         "nombre":"Pam",
         "precio":1500,
         "stock":2,
+        "rareza":"legendary",
         "categoria":"Personajes",
         "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/pam_classic.png",
         "descripcion":"Healer"
@@ -112,6 +124,7 @@
         "nombre":"Penny",
         "precio":1500,
         "stock":3,
+        "rareza":"legendary",
         "categoria":"Personajes",
         "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/penny_classic.png",
         "descripcion":"Supplier"
@@ -121,6 +134,7 @@
         "nombre":"Royale King",
         "precio":1000,
         "stock":5,
+        "rareza":"epic",
         "categoria":"Personajes",
         "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/royale_king_classic.png",
         "descripcion":"Defender"
@@ -130,6 +144,7 @@
         "nombre":"Shelly",
         "precio":300,
         "stock":15,
+        "rareza":"common",
         "categoria":"Personajes",
         "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/shelly_classic.png",
         "descripcion":"All-rounder"
@@ -139,6 +154,7 @@
         "nombre":"Tank",
         "precio":300,
         "stock":15,
+        "rareza":"legendary",
         "categoria":"Personajes",
         "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/tank_classic.png",
         "descripcion":"Defender"
@@ -148,6 +164,7 @@
         "nombre":"Trader",
         "precio":700,
         "stock":15,
+        "rareza":"common",
         "categoria":"Personajes",
         "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/trader_classic.png",
         "descripcion":"Supplier"
@@ -157,6 +174,7 @@
         "nombre":"Witch",
         "precio":1200,
         "stock":15,
+        "rareza":"epic",
         "categoria":"Personajes",
         "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/witch_classic.png",
         "descripcion":"Attacker"
@@ -166,6 +184,7 @@
         "nombre":"Wizzard",
         "precio":1600,
         "stock":4,
+        "rareza":"legendary",
         "categoria":"Personajes",
         "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/wizard_classic.png",
         "descripcion":"Attacker"
@@ -175,6 +194,7 @@
         "nombre":"Archer Queen",
         "precio":900,
         "stock":5,
+        "rareza":"epic",
         "categoria":"Personajes",
         "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/archer_queen_classic.png",
         "descripcion":"Attacker"
@@ -184,15 +204,17 @@
         "nombre":"Bandit",
         "precio":900,
         "stock":3,
+        "rareza":"legendary",
         "categoria":"Personajes",
         "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/bandit_classic.png",
         "descripcion":"Supplier"
     },
     {
         "id":22,
-        "nombre":"Barbarian King",
+        "nombre":"Rey Barbaro",
         "precio":1300,
         "stock":1,
+        "rareza":"epic",
         "categoria":"Personajes",
         "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/barbarian_king_classic.png",
         "descripcion":"Defender"
@@ -202,6 +224,7 @@
         "nombre":"Battle Healer",
         "precio":1300,
         "stock":7,
+        "rareza":"epic",
         "categoria":"Personajes",
         "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/battle_healer_classic.png",
         "descripcion":"Healer" 
@@ -211,6 +234,7 @@
         "nombre":"Bo",
         "precio":250,
         "stock":17,
+        "rareza":"common",
         "categoria":"Personajes",
         "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/bo_classic.png",
         "descripcion":"Attacker" 
@@ -220,6 +244,7 @@
         "nombre":"Chicken",
         "precio":250,
         "stock":17,
+        "rareza":"common",
         "categoria":"Personajes",
         "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/chicken_classic.png",
         "descripcion":"Speedster" 
@@ -229,6 +254,7 @@
         "nombre":"Colt",
         "precio":350,
         "stock":17,
+        "rareza":"common",
         "categoria":"Personajes",
         "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/colt_classic.png",
         "descripcion":"Attacker" 
@@ -238,6 +264,7 @@
         "nombre":"Dynamike",
         "precio":1350,
         "stock":5,
+        "rareza":"legendary",
         "categoria":"Personajes",
         "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/dynamike_classic.png",
         "descripcion":"Attacker" 

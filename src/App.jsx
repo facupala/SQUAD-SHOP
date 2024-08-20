@@ -14,14 +14,14 @@ function App() {
       <BrowserRouter>
       <NavBar/>
         <Routes>
-            <Route path='/' element={<ItemListContainer/>}/>
+            <Route path='/' element={<ItemListContainer greeting={"Bienvenidos a squad shop"}/>}/>
             <Route path='/categoria/:categoriaId' element={<ItemListContainer/>}/>
             <Route path='/item/:id' element={<ItemDetailContainer/>}/>
             <Route path='*' element={<Error/>}/>
         </Routes>
   
       
-      <ItemDetailContainer/>
+      
       
       
       

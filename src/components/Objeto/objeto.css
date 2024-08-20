@@ -5,8 +5,53 @@
     margin: 10px 10px 10px 10px;
     align-items: center;
     border: solid black 3px;
+    transition: all 0.3s;
+    
 }
-img{
+.card:hover{
+    transform: scale(1.15);
+}
+.LinkCard{
+    text-decoration: none;
+}
+.cardh2{
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
+.cardP{
+    background-color: black;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+.cardimg{
     width: 150px;
     margin: 10px 10px 10px 10px;
+    
+    
+}
+.common{
+   
+    background-image: url(https://www.noff.gg/squad-busters/res/img/bg_common.png);
+}
+.common:hover{
+    box-shadow:5px 5px 50px blue;
+}
+.epic{
+    background-image: url(https://www.noff.gg/squad-busters/res/img/bg_epic.png);
+}
+.epic:hover{
+    box-shadow: 5px 5px 50px rgb(201, 48, 201);
+}
+.legendary{
+    background-image: url(https://www.noff.gg/squad-busters/res/img/bg_rare.png);
+}
+.legendary:hover{
+    box-shadow: 5px 5px 50px gold;
 }

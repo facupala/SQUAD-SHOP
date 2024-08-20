@@ -31,7 +31,7 @@ function ItemListContainer({greeting}) {
   
   return (
     <div className='container-fluid box-personajes'>
-      <h1>Bienvenidos</h1>
+      <h1>{greeting}</h1>
 
       {loading ? <Spinner/> : <ItemList Personajes={Personaje}/>}
      
