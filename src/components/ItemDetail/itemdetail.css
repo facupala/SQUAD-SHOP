@@ -1,0 +1,20 @@
+.background{
+    background: rgb(31,38,51);
+    background: linear-gradient(190deg, rgba(31,38,51,1) 0%, rgba(19,20,20,1) 60%, rgba(0,0,0,1) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.detailimg{
+    width: 225px;
+    border-radius: 20px;
+    border: solid black 5px;
+    margin: 15px 15px 15px 15px;
+}
+.detailinfo{
+    color:  white;
+    margin: 15px 15px 15px 15px;
+}
+.counText{
+    color: white;
+}

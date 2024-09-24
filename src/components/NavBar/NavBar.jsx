@@ -20,10 +20,10 @@ const NavBar = ()=>{
           <Link to="/categoria/Personajes" className="nav-link one" aria-current="page"></Link>
         </li>
         <li className="nav-item links">
-          <Link to="/categoria/Mobs" className="nav-link two" ></Link>
+          <Link to="/categoria/Hechizos" className="nav-link two" ></Link>
         </li>
         <li className="nav-item links">
-          <Link to="/categoria/Hechizos" className="nav-link three" ></Link>
+          <Link to="/categoria/Mobs" className="nav-link three" ></Link>
         </li>
         <li className="nav-item links">
           <Link to="/categoria/Gemas" className="nav-link four" aria-disabled="true"></Link>

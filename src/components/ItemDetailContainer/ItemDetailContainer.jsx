@@ -2,22 +2,20 @@ import {useState,useEffect} from 'react'
 import ItemDetail from '../ItemDetail/ItemDetail'
 import { useParams } from 'react-router-dom'
 import Spinner from '../Spinner/Spinner'
+import { getFirestore,doc,getDoc } from 'firebase/firestore'
 const ItemDetailContainer = () => {
     const[Personaje,setPersonaje]=useState("")
 
      const {id} = useParams();
     useEffect(()=>{
-        const fetchDatas=async()=>{
-          try{
-            const response = await fetch('/personajes.json')
-            const data = await response.json()
-            const newProduct = data.find(pe => pe.id === Number(id))
-            setPersonaje(newProduct)
-          }catch(error){
-            console.log("error")
-          }
-        }
-        fetchDatas()
+        const db=getFirestore();
+        const newDoc =doc(db,"Item",id);
+
+        getDoc(newDoc).then((res) => {
+          const data = res.data();
+          const newProduct={id:res.id,...data};
+          setPersonaje(newProduct);
+        });
       },[])
       console.log(id)
   return (

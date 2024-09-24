@@ -5,7 +5,7 @@
         "precio":250,
         "stock":7,
         "rareza":"common",
-        "categoria":"Hechizos",
+        "categoria":"Personajes",
         "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/barbarian_classic.png",
         "descripcion":"Mele"
     },
@@ -25,7 +25,7 @@
         "precio":650,
         "stock":4,
         "rareza":"common",
-        "categoria":"Gemas",
+        "categoria":"Personajes",
         "img": "https://www.noff.gg/squad-busters/res/img/characters/portraits/goblin_classic.png",
         "descripcion":"supplier"
     },
@@ -268,6 +268,166 @@
         "categoria":"Personajes",
         "img":"https://www.noff.gg/squad-busters/res/img/characters/portraits/dynamike_classic.png",
         "descripcion":"Attacker" 
+    },
+    {
+        "id":28,
+        "nombre":"Bomb",
+        "precio":500,
+        "stock":30,
+        "rareza":"common",
+        "categoria":"Hechizos",
+        "img":"https://www.noff.gg/squad-busters/res/img/spells/bomb.png",
+        "descripcion":"spell"
+    },
+    {
+        "id":29,
+        "nombre":"Cannon",
+        "precio":500,
+        "stock":30,
+        "rareza":"common",
+        "categoria":"Hechizos",
+        "img":"https://www.noff.gg/squad-busters/res/img/spells/cannon.png",
+        "descripcion":"spell"
+    },
+    {
+        "id":30,
+        "nombre":"Freeze",
+        "precio":500,
+        "stock":30,
+        "rareza":"common",
+        "categoria":"Hechizos",
+        "img":"https://www.noff.gg/squad-busters/res/img/spells/freeze.png",
+        "descripcion":"spell"
+    },
+    {
+        "id":31,
+        "nombre":"Furnace",
+        "precio":500,
+        "stock":30,
+        "rareza":"common",
+        "categoria":"Hechizos",
+        "img":"https://www.noff.gg/squad-busters/res/img/spells/furnace.png",
+        "descripcion":"spell"
+    },
+    {
+        "id":32,
+        "nombre":"Heal",
+        "precio":500,
+        "stock":30,
+        "rareza":"common",
+        "categoria":"Hechizos",
+        "img":"https://www.noff.gg/squad-busters/res/img/spells/heal.png",
+        "descripcion":"spell"
+    },
+    {
+        "id":33,
+        "nombre":"Lightning",
+        "precio":500,
+        "stock":30,
+        "rareza":"common",
+        "categoria":"Hechizos",
+        "img":"https://www.noff.gg/squad-busters/res/img/spells/lightning.png",
+        "descripcion":"spell"
+    },
+    {
+        "id":34,
+        "nombre":"Rage",
+        "precio":500,
+        "stock":30,
+        "rareza":"common",
+        "categoria":"Hechizos",
+        "img":"https://www.noff.gg/squad-busters/res/img/spells/rage.png",
+        "descripcion":"spell"
+    },
+    {
+        "id":35,
+        "nombre":"Shrink",
+        "precio":500,
+        "stock":30,
+        "rareza":"common",
+        "categoria":"Hechizos",
+        "img":"https://www.noff.gg/squad-busters/res/img/spells/shrink.png",
+        "descripcion":"spell"
+    },
+    {
+        "id":36,
+        "nombre":"The log",
+        "precio":500,
+        "stock":30,
+        "rareza":"common",
+        "categoria":"Hechizos",
+        "img":"https://www.noff.gg/squad-busters/res/img/spells/the_log.png",
+        "descripcion":"spell"
+    },
+    {
+        "id":37,
+        "nombre":"Heal station",
+        "precio":500,
+        "stock":30,
+        "rareza":"legendary",
+        "categoria":"Hechizos",
+        "img":"https://www.noff.gg/squad-busters/res/img/spells/heal_station.png",
+        "descripcion":"spell"
+    },
+    {
+        "id":38,
+        "nombre":"Royal delivery",
+        "precio":500,
+        "stock":30,
+        "rareza":"legendary",
+        "categoria":"Hechizos",
+        "img":"https://www.noff.gg/squad-busters/res/img/spells/royal_delivery.png",
+        "descripcion":"spell"
+    },
+    {
+        "id":39,
+        "nombre":"Skeletons",
+        "precio":500,
+        "stock":30,
+        "rareza":"legendary",
+        "categoria":"Hechizos",
+        "img":"https://www.noff.gg/squad-busters/res/img/spells/skeletons.png",
+        "descripcion":"spell"
+    },
+    {
+        "id":40,
+        "nombre":"100 Gems",
+        "precio":100,
+        "stock":30,
+        "rareza":"legendary",
+        "categoria":"Gemas",
+        "img":"https://support.supercell.com/images/PREMIUM-PASS-v1.png?v=1717580607",
+        "descripcion":"100 GEMAS"
+    },
+    {
+        "id":41,
+        "nombre":"250 Gems",
+        "precio":250,
+        "stock":30,
+        "rareza":"legendary",
+        "categoria":"Gemas",
+        "img":"https://support.supercell.com/images/PREMIUM-PASS-v1.png?v=1717580607",
+        "descripcion":"250 GEMAS"
+    },
+    {
+        "id":42,
+        "nombre":"500 Gems",
+        "precio":500,
+        "stock":30,
+        "rareza":"legendary",
+        "categoria":"Gemas",
+        "img":"https://support.supercell.com/images/PREMIUM-PASS-v1.png?v=1717580607",
+        "descripcion":"500 GEMAS"
+    },
+    {
+        "id":43,
+        "nombre":"1000 Gems",
+        "precio":1000,
+        "stock":30,
+        "rareza":"legendary",
+        "categoria":"Gemas",
+        "img":"https://support.supercell.com/images/PREMIUM-PASS-v1.png?v=1717580607",
+        "descripcion":"1000 GEMAS"
     }
 
 
