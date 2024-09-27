@@ -4,12 +4,13 @@ import "./carwidget.css"
 import { useState } from "react"
 import { useContext } from "react"
 import { CartContext } from "../../Context/CartContext/CartProvider"
+import { Link } from "react-router-dom"
 function CarWidget() {
  const{GetTotalProduct} = useContext(CartContext)
 
   return(
     <div className="carwidget">
-      <button style={{backgroundColor:"black"}}><img style={{width:"50px", marginRight:"20px"}} src={CarritoShop} alt="" /></button>
+      <Link to={"/cart"} style={{backgroundColor:"black"}}><img style={{width:"50px", marginRight:"20px"}} src={CarritoShop} alt="" /></Link>
       {GetTotalProduct() === 0 ? null : GetTotalProduct()}
     </div>
   )

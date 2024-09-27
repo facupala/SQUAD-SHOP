@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import { useState,useEffect } from 'react'
 import { CartContext } from '../../Context/CartContext/CartProvider'
 import {getFirestore, collection,addDoc,updateDoc,doc,getDoc } from 'firebase/firestore'
+import "./checkout.css"
 const Checkout = () => {
   const{ Cart,
     addItems,
@@ -19,7 +20,7 @@ const Checkout = () => {
       e.preventDefault();
       
       if(!nombre || !apellido || !telefono || !email ){
-        setError("por favor completa todos los campor")
+        setError("por favor completa todos los campos")
         return;
       }
 
@@ -67,47 +68,47 @@ const Checkout = () => {
     };
   
   return (
-    <div>
+    <div className='backchek'>
       <h2>Ingresa tus datos</h2>
 
-      <div>
+      <div className='boxinfochek'>
       {Cart.map((product)=>(
-          <div key={product.product.id}>
+          <div className='infochek' key={product.product.id}>
             <p>{""}</p>
             {product.product.nombre}
-            <p>{product.product.precio}</p>
+            <p className='textinfochek'>{product.product.precio}</p>
           </div>
           ))}
       </div>
     
-      <form onSubmit={handleForm}>
+      <form  onSubmit={handleForm}>
        <div>
         <label htmlFor="">Nombre</label>
-        <input type="text" onChange={(e)=> setNombre(e.target.value)}/>
+        <input  type="text" onChange={(e)=> setNombre(e.target.value)}/>
        </div>
 
        <div>
         <label htmlFor="">Apellido</label>
-        <input type="text" onChange={(e)=> setApellido(e.target.value)}/>
+        <input  type="text" onChange={(e)=> setApellido(e.target.value)}/>
        </div>
        
        <div>
         <label htmlFor="">Email</label>
-        <input type="email" onChange={(e)=>setEmail(e.target.value)}/>
+        <input  type="email" onChange={(e)=>setEmail(e.target.value)}/>
        </div>
        
        <div>
         <label htmlFor="">Telefono</label>
-        <input type="number" onChange={(e)=>setTelefono(e.target.value)} />
+        <input   type="number" onChange={(e)=>setTelefono(e.target.value)} />
         </div>
        
           <div>
         <label htmlFor="">Cupon</label>
-        <input type="text" />
+        <input  type="text" />
        </div>
 
        <button type='submit'> generar la orden de compra</button>
-       {error && <p>{error}</p>}
+       {error && <p className='error'>{error}</p>}
 
        {orderId &&(
         <p> gracias por tu compra {orderId}</p>

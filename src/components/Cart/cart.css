@@ -1,0 +1,12 @@
+.carritovacio{
+    background-color: violet;
+    padding: 100px;
+    text-align: center;
+}
+.textvacio{
+    border: solid 5px black;
+    padding:25px 25px 25px 25px;
+    font-size: 2rem;
+    background-color: grey;
+    color: black;
+}

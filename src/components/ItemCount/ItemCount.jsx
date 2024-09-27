@@ -25,7 +25,7 @@ function ItemCount({stock,initial,onadd}) {
       
     }
   return (
-    <div >
+    <div className='boxitemcount'>
       <h1 className='counText'>contador:</h1>
       <div className='box-itemcount'>
         <button className='add' onClick={decrement}>-</button>

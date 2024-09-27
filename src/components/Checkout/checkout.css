@@ -1,0 +1,43 @@
+.backchek{
+    background-color: violet;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boxinfochek{
+    display:flex;
+    justify-content: center;
+    margin: 10px 10px 10px 10px;
+    flex-direction: column;
+}
+.infochek{
+    display: flex;
+    justify-content: center;
+   
+}
+.textinfochek{
+    margin-left: 10px;
+}
+
+form{
+	width:500px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	border: solid 5px;
+    font-size: 1.2rem;
+}
+form label{
+	width:100px;
+	font-weight:bold;
+	display:inline-block;
+}
+form input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius:3px;
+}
+.error{
+    color: red;
+}

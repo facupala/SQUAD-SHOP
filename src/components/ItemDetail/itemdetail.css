@@ -16,5 +16,18 @@
     margin: 15px 15px 15px 15px;
 }
 .counText{
-    color: white;
+    color:white;
+}
+.agregarproducto{
+    color: black;
+    font-size: 1.3rem;
+    text-decoration: none;
+    background-color: white;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 25px;
+    margin-right: 25px;
+}
+.itemcount{
+    margin-right: 25px;
 }
