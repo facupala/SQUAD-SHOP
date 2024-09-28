@@ -31,3 +31,8 @@
 .itemcount{
     margin-right: 25px;
 }
+.nostock{
+    color: white;
+    font-size: 1.3rem;
+    margin-right: 25px;
+}
