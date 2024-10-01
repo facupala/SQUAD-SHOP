@@ -17,7 +17,7 @@ const ItemDetailContainer = () => {
           setPersonaje(newProduct);
         });
       },[])
-      console.log(id)
+      
   return (
     <div>
       {Personaje == undefined ? <Spinner/> : <ItemDetail product={Personaje}/>}

@@ -27,7 +27,7 @@ function ItemListContainer({greeting}) {
     .catch((error)=> console.log("errpr searching item",error))
     .finally(()=>setLoading(false));
   },[categoriaId]);
-  console.log(categoriaId)
+  
   
   return (
     <div className='container-fluid box-personajes'>

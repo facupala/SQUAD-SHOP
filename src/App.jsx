@@ -13,6 +13,10 @@ import Cart from './components/Cart/Cart'
 import { db } from './main'
 import { getFirestore, collection , getDocs } from 'firebase/firestore'
 import Checkout from './components/Checkout/Checkout'
+import Alert from './components/Alert/Alert'
+
+
+
 function App() {
   const[product ,setProduct]=useState([]);
 
@@ -22,11 +26,17 @@ useEffect(()=>{
 
  getDocs(itemsCollection).then((snapshot)=>{
   setProduct(snapshot.docs.map((doc)=>({ id:doc.id, ...doc.data()})));
+ 
  })
-}, [])
-  console.log(product);
+Alert();
+ 
+}, []);
+
+
+  
   return (
     <div>
+      
       <CartProvider>
         <BrowserRouter>
         <NavBar/>
